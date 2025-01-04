@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Finder</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header>
+            <a href="profile.html" class="profile-link">
+                <img src="assets/img/muda.jpg" alt="Rizky's Profile" class="profile-pic">
+                <p>Hi Rizky</p>
+            </a>
+            <h1>Rasakan Belajar Dimana Saja</h1>
+        </header>
+
+        <!-- Search Section -->
+        <section class="search-mentor">
+            <h2>Temukan Mentor!</h2>
+            <div class="search-bar">
+                <input type="text" placeholder="Temukan mentor...">
+                <p>Ayo temukan mentor favorit mu! Ingat, mentor akan membantu kamu untuk memahami materi.</p>
+                <button>Pelajari lebih lanjut</button>
+            </div>
+        </section>
+
+        <!-- Best Mentors Section -->
+        <section class="mentor-section">
+            <h2>Mentor Terbaik!</h2>
+            <div class="mentors">
+                <!-- Mentor 1 -->
+                <a href="mentor-page-1.html" class="mentor-card" style="background: linear-gradient(to bottom, #d0f0e8, #a2e3cf);">
+                    <img src="assets/img/profile-img.jpg" alt="Made Arif Leonardo">
+                    <p class="mentor-name">Made Arif Leonardo</p>
+                    <p class="mentor-info">Mentor Bahasa Inggris di Bisa Belajar</p>
+                </a>
+                <!-- Mentor 2 -->
+                <a href="mentor-page-2.html" class="mentor-card" style="background: linear-gradient(to bottom, #d0e8f7, #a2cdef);">
+                    <img src="assets/img/messages-1.jpg" alt="Iyla Farizia Anita">
+                    <p class="mentor-name">Iyla Farizia Anita</p>
+                    <p class="mentor-info">Mentor Matematika di Bisa Belajar</p>
+                </a>
+            </div>
+
+        </section>
+        <a href="/SignIn/login.html" class="nav-item">
+          <img src="assets/img/icon11.png" alt="Logout">
+          <span>LogOut</span>
+      </a>
+        <!-- Footer -->
+        <footer>
+            <nav class="bottom-nav">
+                <a href="dashboard.html" class="nav-item">
+                    <img src="assets/img/homebiru.png" alt="Home">
+                    <span>Home</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <img src="assets/img/learning.png" alt="E-Learning">
+                    <span>E-Learning</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <img src="assets/img/e-book.png" alt="E-Book">
+                    <span>E-Book</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <img src="assets/img/komunitas.png" alt="Komunitas">
+                    <span>Komunitas</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <img src="assets/img/quiper.png" alt="Quiper">
+                    <span>Quiper</span>
+                </a>
+            </nav>
+        </footer>      
+    </div>
+
+    <style>
+        /* Style the profile link */
+        .profile-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .profile-link img {
+            width: 40px; /* Set the size of the profile picture */
+            height: 40px; /* Ensure it's a square image */
+            border-radius: 50%; /* Make the image round */
+            margin-right: 10px; /* Space between the image and text */
+        }
+
+        .profile-link p {
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .profile-link p:hover {
+            text-decoration: underline;
+        }
+    </style>
+</body>
+</html>

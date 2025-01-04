@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Interface</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="chat-app">
+
+    <!-- Komunitas Header (Di Atas Aplikasi) -->
+    <header class="community-header">
+      <img src="assets/img/news-5.jpg" alt="Logo" class="logo">
+      <h1 class="header-title">Komunitas PAPE</h1>
+      <div class="header-icons">
+        <button class="icon edit-icon">✎</button>
+        <button class="icon star-icon">★</button>
+        <button class="icon more-icon">⋮</button>
+      </div>
+    </header>
+
+    <!-- Chat Window -->
+    <div class="chat-window">
+      <div class="chat-message sent">
+        <img src="assets/img/muda.jpg" alt="Profile" class="profile-pic">
+        <div class="message-content">
+          <p>Can I come over?</p>
+          <span class="time">16:46</span>
+        </div>
+      </div>
+      <div class="chat-message received">
+        <img src="assets/img/messages-2.jpg" alt="Profile" class="profile-pic">
+        <div class="message-content">
+          <p>Of course, let me know if you're on your way</p>
+          <span class="time">16:46 - You Read</span>
+        </div>
+      </div>
+      <div class="chat-message received">
+        <img src="assets/img/messages-1.jpg" alt="Profile" class="profile-pic">
+        <div class="message-content">
+          <div class="reply">
+            <p><b>You:</b> Can I come over?</p>
+          </div>
+          <p>Okay, see you soon!</p>
+          <span class="time">16:52 - You Read</span>
+        </div>
+      </div>
+      <div class="chat-message sent">
+        <img src="assets/img/muda.jpg" alt="Profile" class="profile-pic">
+        <div class="message-content">
+          <p>K, I'm on my way</p>
+          <span class="time">16:50 - Read</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat Footer -->
+    <footer class="chat-footer">
+      <input type="text" placeholder="Type a message..." class="message-input">
+      <button class="send-button">➤</button>
+    </footer>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+      <a href="/dashboard/dashboard.html" class="nav-item">
+          <img src="assets/img/home.png" alt="Home">
+          <span>Home</span>
+      </a>
+      <a href="/E-Learning/learning.html" class="nav-item">
+        <img src="assets/img/learning.png" alt="E-Learning">
+        <span>E-Learning</span>
+    </a>
+      <a href="/E-Book/ebook.html" class="nav-item">
+          <img src="assets/img/e-book.png" alt="E-Book">
+          <span>E-Book</span>
+      </a>
+      <a href="/Komunitas/komunitas.html" class="nav-item">
+          <img src="assets/img/komunitasbiru.png" alt="Komunitas">
+          <span>Komunitas</span>
+      </a>
+      <a href="/Quiper/quiper.html" class="nav-item">
+          <img src="assets/img/quiper.png" alt="Quiper">
+          <span>Quiper</span>
+      </a>
+    </nav>
+  </div>
+</body>
+</html>

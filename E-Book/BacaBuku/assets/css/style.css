@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header {
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sub-header {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.scroll-container {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.book-image {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px 0;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  text-decoration: none; /* Menghilangkan garis bawah */
+  cursor: pointer;
+}
+
+.back-button:hover {
+  text-decoration: underline; /* Opsional: menambahkan garis bawah saat hover */
+}

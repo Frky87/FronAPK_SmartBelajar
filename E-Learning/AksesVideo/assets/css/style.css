@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  font-size: 14px;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px; /* Memperbesar ukuran font */
+  text-align: center;
+}
+
+header .back-button {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Main Section */
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.video-container {
+  width: 100%; /* Memperbesar video agar memenuhi lebar */
+  max-width: 700px; /* Lebar maksimum untuk layar besar */
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+}
+
+/* Footer Navigation */
+/* Footer */
+footer {
+  background-color: #ffffff;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+footer button {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: #4db6ac;
+}
+
+/* Bottom Navigation Bar */
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #555;
+}
+
+.nav-item img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.nav-item span {
+  font-size: 12px;
+}
+
+.nav-item:hover {
+  color: #007bff;
+}
+
+.nav-item img:hover {
+  filter: brightness(1.2);
+}

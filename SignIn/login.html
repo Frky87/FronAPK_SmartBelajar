@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Belajar - Login</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header (di luar kotak login) -->
+    <div class="page-header">
+        <h1 class="app-title">Smart Belajar</h1>
+    </div>
+
+    <div class="page-header1">
+        <h2 class="sign-in-title">Sign In</h2>
+    </div>
+
+    <!-- Kotak Login -->
+    <div class="login-container">
+        <!-- Form Login -->
+        <div class="login-form">
+            <h3 class="welcome">Welcome Back</h3>
+            <p class="subtext">Hello there, sign in to continue</p>
+            
+            <form action="/dashboard/dashboard.html">
+                <!-- Username -->
+                <div class="input-group">
+                    <label for="username"><i class="fas fa-user"></i> Username or email</label>
+                    <input type="text" id="username" placeholder="Enter your username or email">
+                </div>
+
+                <!-- Password -->
+                <div class="input-group">
+                    <label for="password"><i class="fas fa-lock"></i> Password</label>
+                    <div class="password-wrapper">
+                        <input type="password" id="password" placeholder="Enter your password">
+                        <i class="fas fa-eye-slash toggle-password"></i>
+                    </div>
+                </div>
+
+                <!-- Forgot Password -->
+                <a href="#" class="forgot-password">Forgot Password ?</a>
+
+                <!-- Submit Button -->
+                <button type="submit" class="sign-in-btn">Sign in</button>
+            </form>
+
+            <!-- Sign Up Link -->
+            <p class="signup-text">Don't have an account? <a href="/SignUp/Daftar.html">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>

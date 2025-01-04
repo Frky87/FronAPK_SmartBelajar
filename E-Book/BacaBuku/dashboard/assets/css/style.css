@@ -1,0 +1,187 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to bottom, #4db6ac, #81c784);
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Search Mentor Section */
+.search-mentor {
+  padding: 20px;
+  background-color: #f4faff;
+}
+
+.search-mentor h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.search-bar {
+  background-color: #d1e7ff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.search-bar p {
+  font-size: 15px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.search-bar button {
+  background-color: #4db6ac;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Mentor Section Styling */
+.mentor-section {
+  padding: 20px;
+}
+
+.mentor-section h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.mentors {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.mentor-card {
+  flex: 1;
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mentor-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.mentor-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.mentor-info {
+  font-size: 12px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #ffffff;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+footer button {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: #4db6ac;
+}
+
+/* Bottom Navigation Bar */
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #555;
+}
+
+.nav-item img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.nav-item span {
+  font-size: 12px;
+}
+
+.nav-item:hover {
+  color: #007bff;
+}
+
+.nav-item img:hover {
+  filter: brightness(1.2);
+}
+/* Prevent anchor tag from turning blue */
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from parent element */
+}
+
+.mentor-card {
+    display: block; /* Ensure the card is clickable */
+    color: inherit; /* Inherit text color */
+}
+
+.mentor-card:hover {
+    opacity: 0.8; /* Optional: Add hover effect for better UX */
+}

@@ -1,0 +1,144 @@
+/* Global Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Ubah dari center ke flex-start */
+  height: 100vh;
+  background: linear-gradient(135deg, #207d89, #68c9a6);
+}
+
+/* Page Header */
+.page-header {
+  text-align: center;
+  margin-top: 2rem; /* Jarak dari atas halaman */
+  margin-bottom: 1.5rem; /* Jarak dengan container login */
+}
+
+.app-title {
+  font-size: 2rem;
+  color: #ff9500;
+  margin: 0;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.sign-in-title {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+/* Login Container */
+.login-container {
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcome Text */
+.welcome {
+  font-size: 1.4rem;
+  color: #4b4b8c;
+  margin: 0;
+}
+
+.subtext {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.9rem;
+  color: #4b4b8c;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.input-group input:focus {
+  border-color: #207d89;
+  outline: none;
+}
+
+/* Password Wrapper */
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #aaa;
+}
+
+/* Forgot Password */
+.forgot-password {
+  display: block;
+  text-align: right;
+  font-size: 0.8rem;
+  color: #207d89;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+.sign-in-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: linear-gradient(135deg, #4b4b8c, #6a7ee4);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.sign-in-btn:hover {
+  background: linear-gradient(135deg, #6a7ee4, #4b4b8c);
+}
+
+/* Sign Up Link */
+.signup-text {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 1.5rem;
+}
+
+.signup-text a {
+  color: #207d89;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
